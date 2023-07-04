@@ -194,7 +194,7 @@ def play():
                 'what would you like to train? max health,speed defense sword skill element skill or intelligence').lower()
             training(train)
             print('your current stats are', maxhealth, 'max health,', speed, 'speed,', defense, 'defense,', swordskill,
-                  'sword skill,', elskill, 'elemental skillt', intel, 'intelligence')
+                  'sword skill,', elskill, 'element skill', intel, 'intelligence')
         elif action == 'shop':
             shop(coins)
         elif action =='hunt bandits':
