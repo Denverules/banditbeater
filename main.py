@@ -51,7 +51,7 @@ def banditgen(diff):
         enemy.drops = random.randint(120, 200)
     elif diff == 4:
         enemy = Bandit
-        enemy.healthb = random.randint(50, 100)
+        enemy.healthb = random.randint(250, 290)
         enemy.speedb = random.randint(55, 75)
         enemy.elementb = random.choice(elements)
         enemy.defenseb = random.randint(55, 65)
